@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+
+    <style name="titulo">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:padding">@dimen/padding_titulo</item>
+    </style>
+
+    <style name="imagen">
+        <item name="android:layout_width">104dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:src">@android:drawable/stat_sys_data_bluetooth</item>
+
+
+
+    </style>
+
+    <style name="boton">
+        <item name="android:layout_margin">@dimen/margin_boton</item>
+        <item name="android:textSize">@dimen/texto_boton</item>
+        <item name="android:padding">@dimen/padding_boton</item>
+        <item name="android:layout_width">@dimen/ancho_boton</item>
+        <item name="android:layout_height">@dimen/alto_boton</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/boton</item>
+
+    </style>
+
+
+</resources>

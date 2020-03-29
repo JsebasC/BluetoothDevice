@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BLUETOOTH</string>
+    <string name="encender">Encender Bluetooth</string>
+    <string name="off">Apagar Bluetooth</string>
+    <string name="emparejados">Emparejados</string>
+    <string name="salir">Salir</string>
+    <string name="ActivarBluetooth">Bluetooth Activado</string>
+    <string name="DesactivarBluetooth">Bluetooth Desactivado</string>
+    <string name="DetectadoDispositivo">Detectado Dispositivo </string>
+</resources>

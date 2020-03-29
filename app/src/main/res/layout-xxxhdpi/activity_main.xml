@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:padding="@dimen/padding_pantalla"
+
+    >
+
+    <LinearLayout
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/titulo"
+            style="@style/titulo"
+            android:text="@string/app_name"
+            android:textAlignment="textEnd"
+            android:textSize="40dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            style="@style/imagen"
+            android:tint="#0040FF" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/encender"
+        style="@style/boton"
+        android:layout_margin="30dp"
+        android:onClick="encender"
+        android:text="@string/encender" />
+
+
+    <Button
+        android:id="@+id/apagar"
+        style="@style/boton"
+        android:onClick="apagar"
+        android:layout_margin="30dp"
+        android:text="@string/off" />
+
+    <Button
+        android:id="@+id/emparejados"
+        style="@style/boton"
+        android:onClick="emparejados"
+        android:layout_margin="30dp"
+        android:text="@string/emparejados"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/salir"
+        style="@style/boton"
+        android:layout_margin="30dp"
+        android:background="@drawable/boton"
+        android:onClick="salir"
+        android:text="@string/salir" />
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+        <TextView
+            android:id="@+id/resultado"
+            style="@style/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
